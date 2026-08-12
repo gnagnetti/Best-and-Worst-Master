@@ -4,9 +4,8 @@ export function exportBestAndWorstReport() {}
 export function exportBestAndWorstXlsx() {}
 export function exportBestAndWorstValueReport() {}
 export function exportBestAndWorstValueXlsx() {}
-export function exportTopGarderoberReport() {}
-export function exportTopGarderoberCsv() {}
-export function exportTopGarderoberesCsv() {}
+export function exportTopGarderobesReport() {}
+export function exportTopGarderobesCsv() {}
 export function exportTopCategoryReport() {}
 export function exportTopCategoryXlsx() {}
 export function exportTopLooksReport() {}
