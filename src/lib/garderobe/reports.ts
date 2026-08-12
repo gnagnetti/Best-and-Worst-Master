@@ -6,9 +6,12 @@ export function exportBestAndWorstValueReport() {}
 export function exportBestAndWorstValueXlsx() {}
 export function exportTopGarderoberReport() {}
 export function exportTopGarderoberCsv() {}
+export function exportTopGarderoberesCsv() {}
 export function exportTopCategoryReport() {}
 export function exportTopCategoryXlsx() {}
 export function exportTopLooksReport() {}
 export function topCategoryRows() {}
 export function exportUnorderedApparelReport() {}
 export function exportUnorderedApparelXlsx() {}
+export function exportMissingStylesCsv() {}
+export function exportProcessedDatabaseCsv() {}
