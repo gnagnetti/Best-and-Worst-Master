@@ -8,6 +8,7 @@ export function exportTopGarderoberReport() {}
 export function exportTopGarderoberCsv() {}
 export function exportTopCategoryReport() {}
 export function exportTopCategoryXlsx() {}
-export function exportLooksReport() {}
+export function exportTopLooksReport() {}
+export function exportTopCategoryRows() {}
 export function exportUnorderedApparelReport() {}
 export function exportUnorderedApparelXlsx() {}
