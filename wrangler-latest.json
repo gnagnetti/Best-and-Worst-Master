@@ -1,0 +1,13 @@
+python3 -c '
+import json, os
+path = "wrangler.json"
+if os.path.exists(path):
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    data["compatibility_date"] = "2026-08-11"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    print("✅ wrangler.json aggiornato!")
+else:
+    print("❌ File wrangler.json non trovato nella cartella corrente.")
+'
